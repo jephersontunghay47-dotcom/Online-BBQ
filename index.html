@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BBQ House | Online BBQ Store</title>
+    <link rel="stylesheet" href="styles.css" >
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>BBQ HOUSE</h1>
+
+        <!-- NAVIGATION -->
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#menu">Our Menu</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+
+
+    <!-- HOME SECTION -->
+    <section id="home">
+        <h3>Current Time:</h3>
+
+        <p id="clock"></p>
+        <h2>Welcome to BBQ House!</h2>
+
+        <p>
+            Enjoy delicious and freshly grilled BBQ.
+            Order your favorite BBQ products today!
+        </p>
+
+        <button id="welcomeBtn">Explore Our Menu</button>
+
+        <p id="welcomeMessage"></p>
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+
+        <h2>About Us</h2>
+
+        <p>
+            BBQ House is an online BBQ business
+            that offers delicious grilled foods
+            for BBQ lovers.
+        </p>
+
+    </section>
+
+
+    <!-- MENU SECTION -->
+    <section id="menu">
+
+        <h2>Our BBQ Menu</h2>
+
+        <div class="product-card">
+            <h3>Pork BBQ</h3>
+            <p>Delicious grilled pork barbecue.</p>
+            <p>Price: ₱20</p>
+        </div>
+
+        <div class="product-card">
+            <h3>Chicken BBQ</h3>
+            <p>Freshly grilled chicken.</p>
+            <p>Price: ₱80</p>
+        </div>
+
+        <div class="product-card">
+            <h3>Isaw</h3>
+            <p>Grilled chicken intestines.</p>
+            <p>Price: ₱10</p>
+        </div>
+
+       <input
+            type="text"
+            id="searchProduct"
+            placeholder="Search BBQ products..."
+        >
+        <!-- PRICE TABLE -->
+        <h2>Product Price List</h2>
+
+        <table border="1">
+
+            <tr>
+                <th>Product</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+
+            <tr>
+                <td>Pork BBQ</td>
+                <td>Grilled pork</td>
+                <td>₱20</td>
+            </tr>
+
+            <tr>
+                <td>Chicken BBQ</td>
+                <td>Grilled chicken</td>
+                <td>₱80</td>
+            </tr>
+
+            <tr>
+                <td>Isaw</td>
+                <td>Grilled chicken intestines</td>
+                <td>₱10</td>
+            </tr>
+
+        </table>
+         
+        >
+    </section>
+
+
+    <!-- GALLERY SECTION -->
+    <section id="gallery">
+
+        <h2>Our BBQ Gallery</h2>
+
+        <img src="https://placehold.co/250x180?text=Pork+BBQ"
+             alt="Pork BBQ">
+
+        <img src="https://placehold.co/250x180?text=Chicken+BBQ"
+             alt="Chicken BBQ">
+
+        <img src="https://placehold.co/250x180?text=Grilled+Food"
+             alt="Grilled Food">
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+
+        <h2>Contact Us</h2>
+
+        <form id="contactForm">
+
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <br><br>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" placeholder="Enter your email">
+
+            <br><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Your message"></textarea>
+
+            <br><br>
+
+            <button type="submit">Send Message</button>
+            <p id="formMessage"></p>
+        </form>
+
+    </section>
+    <script src="script.js">
+    </script>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>&copy; 2026 BBQ House. All Rights Reserved.</p>
+
+    </footer>
+
+    
+</body>
+
+</html>
